@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World's Best Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" disabled>
+        <div id="mode-switcher" class="mode-switcher">
+            <button onclick="switchMode('basic')">Basic</button>
+            <button onclick="switchMode('scientific')">Scientific</button>
+            <button onclick="switchMode('converter')">Converter</button>
+            <!-- Add more modes as needed -->
+        </div>
+        <div id="buttons" class="buttons">
+            <!-- Buttons will be dynamically added based on mode -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
